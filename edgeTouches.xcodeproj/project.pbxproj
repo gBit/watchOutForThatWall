@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FEF070F1717D2C800006FCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEF070E1717D2C800006FCF /* UIKit.framework */; };
+		8FEF07111717D2C800006FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEF07101717D2C800006FCF /* Foundation.framework */; };
+		8FEF07131717D2C800006FCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEF07121717D2C800006FCF /* CoreGraphics.framework */; };
+		8FEF07191717D2C800006FCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FEF07171717D2C800006FCF /* InfoPlist.strings */; };
+		8FEF071B1717D2C800006FCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF071A1717D2C800006FCF /* main.m */; };
+		8FEF07211717D2C800006FCF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEF07201717D2C800006FCF /* Default.png */; };
+		8FEF07231717D2C800006FCF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEF07221717D2C800006FCF /* Default@2x.png */; };
+		8FEF07251717D2C800006FCF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FEF07241717D2C800006FCF /* Default-568h@2x.png */; };
+		8FEF07321717D2FB00006FCF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FEF07311717D2FB00006FCF /* MainStoryboard.storyboard */; };
+		8FEF07391717D33B00006FCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF07341717D33B00006FCF /* AppDelegate.m */; };
+		8FEF073A1717D33B00006FCF /* TinyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF07361717D33B00006FCF /* TinyView.m */; };
+		8FEF073B1717D33B00006FCF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FEF07381717D33B00006FCF /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FEF070B1717D2C800006FCF /* edgeTouches.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = edgeTouches.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEF070E1717D2C800006FCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FEF07101717D2C800006FCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FEF07121717D2C800006FCF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FEF07161717D2C800006FCF /* edgeTouches-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "edgeTouches-Info.plist"; sourceTree = "<group>"; };
+		8FEF07181717D2C800006FCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FEF071A1717D2C800006FCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FEF071C1717D2C800006FCF /* edgeTouches-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "edgeTouches-Prefix.pch"; sourceTree = "<group>"; };
+		8FEF07201717D2C800006FCF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8FEF07221717D2C800006FCF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8FEF07241717D2C800006FCF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8FEF07311717D2FB00006FCF /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8FEF07331717D33B00006FCF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FEF07341717D33B00006FCF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FEF07351717D33B00006FCF /* TinyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyView.h; sourceTree = "<group>"; };
+		8FEF07361717D33B00006FCF /* TinyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyView.m; sourceTree = "<group>"; };
+		8FEF07371717D33B00006FCF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8FEF07381717D33B00006FCF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FEF07081717D2C800006FCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEF070F1717D2C800006FCF /* UIKit.framework in Frameworks */,
+				8FEF07111717D2C800006FCF /* Foundation.framework in Frameworks */,
+				8FEF07131717D2C800006FCF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FEF07021717D2C800006FCF = {
+			isa = PBXGroup;
+			children = (
+				8FEF07141717D2C800006FCF /* edgeTouches */,
+				8FEF070D1717D2C800006FCF /* Frameworks */,
+				8FEF070C1717D2C800006FCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FEF070C1717D2C800006FCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FEF070B1717D2C800006FCF /* edgeTouches.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FEF070D1717D2C800006FCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FEF070E1717D2C800006FCF /* UIKit.framework */,
+				8FEF07101717D2C800006FCF /* Foundation.framework */,
+				8FEF07121717D2C800006FCF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FEF07141717D2C800006FCF /* edgeTouches */ = {
+			isa = PBXGroup;
+			children = (
+				8FEF07331717D33B00006FCF /* AppDelegate.h */,
+				8FEF07341717D33B00006FCF /* AppDelegate.m */,
+				8FEF07371717D33B00006FCF /* ViewController.h */,
+				8FEF07381717D33B00006FCF /* ViewController.m */,
+				8FEF07351717D33B00006FCF /* TinyView.h */,
+				8FEF07361717D33B00006FCF /* TinyView.m */,
+				8FEF07311717D2FB00006FCF /* MainStoryboard.storyboard */,
+				8FEF07151717D2C800006FCF /* Supporting Files */,
+			);
+			path = edgeTouches;
+			sourceTree = "<group>";
+		};
+		8FEF07151717D2C800006FCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FEF07161717D2C800006FCF /* edgeTouches-Info.plist */,
+				8FEF07171717D2C800006FCF /* InfoPlist.strings */,
+				8FEF071A1717D2C800006FCF /* main.m */,
+				8FEF071C1717D2C800006FCF /* edgeTouches-Prefix.pch */,
+				8FEF07201717D2C800006FCF /* Default.png */,
+				8FEF07221717D2C800006FCF /* Default@2x.png */,
+				8FEF07241717D2C800006FCF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FEF070A1717D2C800006FCF /* edgeTouches */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FEF072E1717D2C800006FCF /* Build configuration list for PBXNativeTarget "edgeTouches" */;
+			buildPhases = (
+				8FEF07071717D2C800006FCF /* Sources */,
+				8FEF07081717D2C800006FCF /* Frameworks */,
+				8FEF07091717D2C800006FCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = edgeTouches;
+			productName = edgeTouches;
+			productReference = 8FEF070B1717D2C800006FCF /* edgeTouches.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FEF07031717D2C800006FCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Oess Industries";
+			};
+			buildConfigurationList = 8FEF07061717D2C800006FCF /* Build configuration list for PBXProject "edgeTouches" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FEF07021717D2C800006FCF;
+			productRefGroup = 8FEF070C1717D2C800006FCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FEF070A1717D2C800006FCF /* edgeTouches */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FEF07091717D2C800006FCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEF07191717D2C800006FCF /* InfoPlist.strings in Resources */,
+				8FEF07211717D2C800006FCF /* Default.png in Resources */,
+				8FEF07231717D2C800006FCF /* Default@2x.png in Resources */,
+				8FEF07251717D2C800006FCF /* Default-568h@2x.png in Resources */,
+				8FEF07321717D2FB00006FCF /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FEF07071717D2C800006FCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FEF071B1717D2C800006FCF /* main.m in Sources */,
+				8FEF07391717D33B00006FCF /* AppDelegate.m in Sources */,
+				8FEF073A1717D33B00006FCF /* TinyView.m in Sources */,
+				8FEF073B1717D33B00006FCF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FEF07171717D2C800006FCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FEF07181717D2C800006FCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FEF072C1717D2C800006FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FEF072D1717D2C800006FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FEF072F1717D2C800006FCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "edgeTouches/edgeTouches-Prefix.pch";
+				INFOPLIST_FILE = "edgeTouches/edgeTouches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FEF07301717D2C800006FCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "edgeTouches/edgeTouches-Prefix.pch";
+				INFOPLIST_FILE = "edgeTouches/edgeTouches-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FEF07061717D2C800006FCF /* Build configuration list for PBXProject "edgeTouches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEF072C1717D2C800006FCF /* Debug */,
+				8FEF072D1717D2C800006FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FEF072E1717D2C800006FCF /* Build configuration list for PBXNativeTarget "edgeTouches" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FEF072F1717D2C800006FCF /* Debug */,
+				8FEF07301717D2C800006FCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FEF07031717D2C800006FCF /* Project object */;
+}
